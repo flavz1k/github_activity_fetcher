@@ -9,3 +9,5 @@ Run in terminal: <br>
 `python main.py -h` <br>
 -u is necessary, this is a github user name
 -t is optionally, this is a your github token
+
+Idea taken from: https://roadmap.sh/projects/github-user-activity
