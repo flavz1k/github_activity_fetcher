@@ -36,7 +36,6 @@ user_events = request.json()
 for events in user_events:
     repo = events["repo"]["url"]
     payload = events["payload"]
-    
     match events["type"]:
         case "CommitCommentEvent":
             print(f"- created a commit comment in {repo}")
